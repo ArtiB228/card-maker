@@ -34,7 +34,7 @@ password.addEventListener('input', () => {
 })
 button.addEventListener('click', () => {
     if (username.style.outline === 'green solid 1px' && password.style.outline === 'green solid 1px') {
-        window.open('index.html')
+        window.open('indexx.html')
         localStorage.setItem('username', username.value)
         localStorage.setItem('mypfp', pfp.src)
     }
